@@ -3,6 +3,7 @@ Fee Management System
 The Fee Management System is a Python-based application that automates fee status tracking and notification via email. It allows administrators to:
 
 ✅ Send OTP-based authentication for secure admin login.
+
 ✅ Notify students via email about pending or cleared fees.
 ✅ Update fee statuses for registered users.
 This project uses SMTP, Python-dotenv, and automated email notifications to streamline the fee management process.
