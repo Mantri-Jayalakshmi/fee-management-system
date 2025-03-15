@@ -1,22 +1,17 @@
-Fee Management System
-📌 Overview
+📌 Fee Management System
+Overview
 The Fee Management System is a Python-based application that automates fee status tracking and notification via email. It allows administrators to:
 
 ✅ Send OTP-based authentication for secure admin login.
-
 ✅ Notify students via email about pending or cleared fees.
-
 ✅ Update fee statuses for registered users.
 
 This project uses SMTP, Python-dotenv, and automated email notifications to streamline the fee management process.
 
 🛠️ Features
 🔹 OTP Authentication – Ensures only authorized admins can access the system.
-
 🔹 Automated Email Notifications – Sends emails to students based on fee status.
-
 🔹 Admin Dashboard – Provides a simple interface to update and track fee records.
-
 🔹 Secure Credential Handling – Uses .env files to protect sensitive email credentials.
 
 🔧 Tech Stack
@@ -28,30 +23,31 @@ dotenv (Environment variable management)
 bash
 Copy
 Edit
-git clone https://github.com/Mantri-Jayalakshmi/fee-management-system.git
-cd fee-management-system
+git clone https://github.com/Mantri-Jayalakshmi/fee-management-system.git  
+cd fee-management-system  
 2️⃣ Install Dependencies
 bash
 Copy
 Edit
-pip install python-dotenv
+pip install python-dotenv  
 3️⃣ Configure Email Credentials
 Create a .env file and add your email and app password:
 
 plaintext
 Copy
 Edit
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASSWORD=your_app_password
+EMAIL_USER=your_email@gmail.com  
+EMAIL_PASSWORD=your_app_password  
 🔹 Use an App Password instead of your Gmail password (for security).
 
 4️⃣ Run the Project
 bash
 Copy
 Edit
-python main.py
+python main.py  
 📬 Contact & Contributions
 Feel free to contribute by creating pull requests or reporting issues!
+
 🔗 GitHub: Mantri-Jayalakshmi
 📧 Email: mantrijayalakshmi796@gmail.com
 
